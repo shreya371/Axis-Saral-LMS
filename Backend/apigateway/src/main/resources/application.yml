@@ -1,0 +1,35 @@
+
+server:
+  port: 9999
+
+spring:
+  application:
+    name: API_GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: PROJECT-SERVICE
+        uri: 
+            lb://PROJECT-SERVICE
+        predicates:
+        - Path=/ms1/**
+      - id: EMPLOYEE-SERVICE
+        uri: 
+            lb://EMPLOYEE-SERVICE
+        predicates:
+        - Path=/ms2/**
+      - id: JOB-SERVICE
+        uri: 
+            lb://JOB-SERVICE
+        predicates:
+        - Path=/ms3/**
+        
+      - id: NEWSFEED-SERVICE
+        uri: 
+            lb://NEWSFEED-SERVICE
+        predicates:
+        - Path=/ms4/**
+        
+
+
+
