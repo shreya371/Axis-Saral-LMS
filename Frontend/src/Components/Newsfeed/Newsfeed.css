@@ -1,0 +1,54 @@
+#pdf-id {
+    height: 700px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#ava {
+
+    vertical-align: baseline;
+
+}
+
+#main-content {
+    margin-top: 100px;
+}
+
+
+
+#scroll-container {
+    display: flex;
+    height: 600px;
+    overflow: hidden;
+    position: fixed;
+}
+
+.panel {
+    flex: 1;
+    /* height: 500pxpx; */
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    /* optional, for smooth scrolling */
+    width: 650px;
+
+}
+
+.panel::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.middle-panel {
+    margin-left: -100px;
+    width: 500px;
+
+}
+
+.right-panel {
+    margin-left: 15px;
+
+    width: 400px;
+}

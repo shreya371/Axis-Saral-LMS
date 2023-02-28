@@ -1,0 +1,230 @@
+body {
+    background-color: rgba(175, 39, 95, 0.05) !important;
+    margin: 0;
+}
+
+.sidebarContainer {
+    width: 263px;
+    height: 1300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white !important;
+}
+
+
+.mainBlock {
+
+    width: 1253px;
+    left: 263px;
+    position: relative;
+    /* color: #af275f; */
+
+
+}
+
+
+
+
+
+/* body {
+    background-color: red;
+    margin: 0;
+} */
+
+
+
+.axislogo {
+    position: absolute;
+    /* top: 14px; */
+    /* left: 1px; */
+    width: 260px;
+    height: 81px;
+    object-fit: cover;
+    /* background-color: white; */
+}
+
+.sidecolor {
+    width: 263px;
+    height: 1300px;
+    background-color: #E9E3FF;
+
+    /* #E2E8F0 */
+}
+
+#i {
+    display: block;
+    float: left;
+    height: 300px;
+    width: 500px;
+
+
+}
+
+.sidebutton {
+    top: 240px;
+    width: 114px;
+    opacity: 0.4;
+}
+
+.names-container {
+    /* margin-top: 90px; */
+    margin-left: 10px;
+    text-align: left;
+}
+
+.sep {
+    width: 196px;
+    height: 45px;
+    font-weight: 500;
+    color: gray;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+    padding: 3px;
+}
+
+#button-id:hover {
+    /* width: 160px;
+    height: 55px; */
+    cursor: pointer;
+    width: 196px;
+    height: 45px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+
+    border-radius: 8px;
+    background-color: #af275f;
+
+
+    padding: 3px;
+    vertical-align: middle;
+}
+
+#button-id {
+    background-color: white;
+    border: none;
+    color: gray;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#menu {
+    /* margin-left: 72%; */
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+    border-radius: 30px;
+}
+
+#search {
+    background: #F4F7FE;
+    border-radius: 49px;
+}
+
+#search:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#profile-icon:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+#main-body {
+    position: relative;
+    margin-top: 5%;
+}
+
+#nav {
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+
+/* stake holder card css */
+
+.Card {
+
+    display: block;
+    width: 180px;
+    height: 210px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* transform: translate(95px, 60px); */
+}
+
+
+
+
+.upper-container {
+
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    width: 180px;
+    height: 70px;
+
+    background: #AF275F;
+
+}
+
+.image-container {
+    align-items: center;
+}
+
+
+
+.lower-container {
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+.pro-pic {
+
+    position: absolute;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #FFFFFF;
+    transform: translate(53px, 35px);
+
+
+}
+
+
+
+
+.id,
+.name {
+    font-size: 13px;
+    color: black;
+
+}
+
+.designation {
+    font-size: 11px;
+    color: grey;
+
+}
+
+.email,
+.phone {
+    font-size: 10px;
+    color: grey;
+
+}
+
+#search-hover:hover {
+    cursor: pointer;
+}
